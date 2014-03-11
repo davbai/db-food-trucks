@@ -1,0 +1,38 @@
+#container {
+    margin: auto;
+    max-width: 1000px;
+    height: 655px;
+}
+
+#map-canvas {
+    height: 75%;
+    width: 75%;
+    float: left;
+    margin-top: 20px;
+}
+
+#food-truck-detail {
+    background-color: #F4F3F1;
+    height: 25%;
+    width: 75%;
+    float: left;
+    border: 1px solid #DDDDDD;
+    padding-left: 10px;
+}
+
+#neighborhood-list {
+    height: 100%;
+    width: 25%;
+    float: right;
+    margin-top: 20px;
+}
+
+.list-group-item {
+    text-align: center;
+}
+
+.footer {
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+}

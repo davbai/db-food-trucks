@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="map-canvas"></div>
+            <div id="neighborhood-list"></div>
+            <div id="food-truck-detail"></div>
+            <footer class="footer">
+                <p>Sample application built with <a href="http://documentcloud.github.com/backbone/">Backbone.js</a>,
+                <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>,
+                <a href="http://nodejs.org/">Node.js</a>,
+                <a href="http://expressjs.com/">Express</a>,
+                <a href="http://www.mongodb.org/">MongoDB</a>,
+                <a href="https://data.sfgov.org/Permitting/Mobile-Food-Facility-Permit/rqzj-sfat">San Francisco Data</a>,
+                and <a href="https://developers.google.com/maps/">Google Maps API</a>.
+                The source code for this application is available in <a href="#">this repository</a> on GitHub.</p>
+            </footer>
+        </div>
+
+        <!-- EXTERNAL JS LIBS FILES -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+        <script src="http://ajax.cdnjs.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        
+        <!-- JS FILES -->
+        <script src="js/models/neighborhood.js"></script>
+        <script src="js/models/map.js"></script>
+        <script src="js/collections/foodtrucks.js"></script>
+        <script src="js/collections/neighborhoods.js"></script>
+        <script src="js/views/mapview.js"></script>
+        <script src="js/views/neighborhoodlist.js"></script>
+        <script src="js/views/foodtruckdetail.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
