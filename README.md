@@ -1,5 +1,5 @@
 # Food Trucks
-Demo web application/exercise that shows the food trucks in San Francisco. You can see it live @ [ub-food-trucks.herokuapp.com](http://ub-food-trucks.herokuapp.com/). 
+Demo web application/exercise that shows the food trucks in San Francisco. You can see it live @ [db-food-trucks.herokuapp.com](http://db-food-trucks.herokuapp.com/). 
 
 ## Tools
 This was built with the following:
